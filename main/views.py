@@ -7,7 +7,7 @@ def home(request):
 
 def reports(request):
     pass
-    return render(request,'main/home.html')
+    return render(request,'main/reports.html')
 
 def passwords(request):
     pass

@@ -39,5 +39,7 @@ body {
 }
 
 .main-content {
-  max-height: 100vh-61.6px; /
+  height: calc(100vh - 61.6px);
 }
+
+

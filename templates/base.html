@@ -194,14 +194,15 @@
     <!-- Navbar -->
   </header>
   <!--Main Navigation-->
-  <main>
-    <div class="container-fluid main-content  pt-1 border">
-      salom 
-      <!--Section: Statistics with subtitles-->
-    </div>
-  </main>
-
-
+    <main>
+      <div class="container-fluid main-content pt-1 border d-flex flex-column justify-content-center align-items-center">
+      {% block content %}
+            <img src="{% static 'icons/login_het.png' %}" alt="Organization Icon" style="max-width: 100%;" />
+            <!-- Section: Statistics with subtitles -->
+            <div class="text-secondary h3 fw-bold">Toshkent Shahar Hududiy Filiali</div>
+      {% endblock content %}    
+      </div>
+    </main>
 
         <!--  JAVASCRIPT IMPORTS  -->
         <script src="{% static 'mdb5/js/mdb.min.js' %}"></script>
